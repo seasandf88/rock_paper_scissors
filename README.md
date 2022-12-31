@@ -1,2 +1,2 @@
 # rock_paper_scissors
-This is the first javaScript project on TOP
+This is the first javaScript project on TOP, it's a five rounds game of Rock Paper Scissors. It uses only the console at the moment, the player choose what to play against a random choice by the computer.
