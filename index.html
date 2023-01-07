@@ -5,10 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>This game runs inside the console!</h1>
-    <script></script>
+    <div class="container">
+      <div class="header">Rock Paper Scissors</div>
+      <div class="main">
+        <div class="heading">
+          <h1>
+            First to 5 wins!
+          </h1>
+          <!-- <h3>
+          </h3> -->
+        </div>
+        <div class="images">
+          <img src="./images/user.png" alt="" id="player">
+          <img src="./images/none.png" alt="" id="pImg">
+          <img src="./images/none.png" alt="" id="cImg">
+          <img src="./images/computer.png" alt="" id="computer">
+        </div>
+        <div class="result">
+          <h3 id="pScore">a</h3>
+          <h3 id="tScore">0</h3>
+          <h3 id="cScore">Com0</h3>
+          <!-- <h1 id="final"></h1> -->
+        </div>
+      <div class="buttons">
+        <button id="rock" class="play">Rock</button>
+        <button id="paper" class="play">Paper</button>
+        <button id="scissors" class="play">Scissors</button>
+      </div>
+      <div class="overlay">
+        <div class="popup">
+          <h3 id="finalMsg">You Won!</h3>
+          <button id="finalButton">Play Again</button>
+        </div>
+      </div>
+      </div>
+      <div class="footer">Copyright &#169; Fahed Nassar</div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+      <script src="main.js"></script>
+      </div>
+    </div>
   </body>
 </html>

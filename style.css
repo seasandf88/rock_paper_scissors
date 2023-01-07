@@ -1,0 +1,147 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 16%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main {
+    background-color: rgb(255, 234, 0);
+    height: 40%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    
+}
+
+.images {
+    /* height: 200px; */
+    text-align: center;
+    line-height: 12px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+    font-size: 32px;
+    line-height: 0;
+    padding: 24px;
+}
+
+#tScore {
+    font-size: 20px;
+}
+
+button {
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
+.pushed {
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    transition: all 1s ease;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 234, 0);
+}
+
+#finalMsg {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#finalButton {
+    height: 32px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.footer {
+        height: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
