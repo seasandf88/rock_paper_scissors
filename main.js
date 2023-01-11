@@ -17,6 +17,12 @@ let tie = 0;
 //Empty images placeholders
 const pImg = document.querySelector("#pImg");
 const cImg = document.querySelector("#cImg");
+pImg.src = `./images/paper.png`;
+cImg.src = `./images/paper2.png`;
+pImg.src = `./images/rock.png`;
+cImg.src = `./images/rock2.png`;
+pImg.src = `./images/scissors.png`;
+cImg.src = `./images/scissors2.png`;
 pImg.src = `./images/none.png`;
 cImg.src = `./images/none.png`;
 
