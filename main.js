@@ -17,12 +17,6 @@ let tie = 0;
 //Empty images placeholders
 const pImg = document.querySelector("#pImg");
 const cImg = document.querySelector("#cImg");
-pImg.src = `./images/paper.png`;
-cImg.src = `./images/paper2.png`;
-pImg.src = `./images/rock.png`;
-cImg.src = `./images/rock2.png`;
-pImg.src = `./images/scissors.png`;
-cImg.src = `./images/scissors2.png`;
 pImg.src = `./images/none.png`;
 cImg.src = `./images/none.png`;
 
@@ -59,11 +53,11 @@ function turn(button, computerChoice) {
   pScore.textContent = win;
   cScore.textContent = lose;
   tScore.textContent = tie;
-  if (win == 3) {
+  if (win == 5) {
     overlayDiv.classList.add("active");
     finalMsg.textContent = "You Won!";
     button.disabled = true;
-  } else if (lose == 3) {
+  } else if (lose == 5) {
     overlayDiv.classList.add("active");
     finalMsg.textContent = "You Lost!";
     button.disabled = true;

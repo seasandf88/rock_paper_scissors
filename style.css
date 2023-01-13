@@ -43,6 +43,7 @@
 
 .images {
     height: 20vh;
+    width: 200px;
     text-align: center;
     gap: 18%;
     display: flex;
@@ -58,10 +59,27 @@
     font-size: 1.25rem;
     line-height: 0;
     padding: 1rem;
+    text-align: center;
 }
 
+.result h3 {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.result #pScore {
+    color: green;
+}
+.result #cScore {
+    color: red;
+}
+.result #tScore {
+    color: blue;
+}
+
+
 #tScore {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 button {
@@ -146,4 +164,11 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+}
+
+@media (max-width: 600px) {
+    .images #player,
+    .images #computer {
+        display: none;
+    }
 }
